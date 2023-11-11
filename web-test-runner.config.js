@@ -57,6 +57,7 @@ const browsers = {
   firefox: playwrightLauncher({product: 'firefox'}),
   webkit: playwrightLauncher({product: 'webkit'}),
 
+  
   // Uncomment example launchers for running on Sauce Labs
   // ===========
   // chromium: sauceLabsLauncher({browserName: 'chrome', browserVersion: 'latest', platformName: 'Windows 10'}),

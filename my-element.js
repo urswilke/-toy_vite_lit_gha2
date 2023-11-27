@@ -14,16 +14,16 @@ import {LitElement, html, css} from 'lit';
  * @csspart button - The button
  */
 export class MyElement extends LitElement {
-  static get styles() {
-    return css`
+  static styles = [
+    css`
       :host {
         display: block;
         border: solid 1px gray;
         padding: 16px;
         max-width: 800px;
       }
-    `;
-  }
+    `
+  ]
 
   static get properties() {
     return {
